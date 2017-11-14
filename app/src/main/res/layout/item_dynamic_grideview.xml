@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.makeramen.roundedimageview.RoundedImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/album_image"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:scaleType="center"
+    android:src="@mipmap/icon_bg_null"
+    app:riv_corner_radius="5dp"
+    app:riv_mutate_background="true" />

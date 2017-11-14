@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充的颜色 -->
+    <solid android:color="@android:color/transparent" />
+    <!-- 设置按钮的四个角为弧形 -->
+    <!-- android:radius 弧形的半径 -->
+    <corners android:radius="18dp" />
+    <!--边框的宽度及颜色-->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/color_898988" />
+</shape>

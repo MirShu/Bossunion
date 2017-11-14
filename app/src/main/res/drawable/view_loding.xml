@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@mipmap/ee_1"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_2"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_3"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_4"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_5"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_6"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_7"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_8"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_9"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_10"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_11"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_12"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_13"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_14"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_15"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_16"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_17"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_18"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_19"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_20"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_21"
+        android:duration="100" />
+    <item
+        android:drawable="@mipmap/ee_22"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/ee_23"
+        android:duration="100" />
+</animation-list>

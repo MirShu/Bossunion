@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bossunion="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/icon_pup_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:text="提示"
+            android:textColor="@color/color_333333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="16px"
+            android:lineSpacingExtra="5dp"
+            android:text="确定要删除我要无疼痛好这个标签吗"
+            android:textColor="@color/color_333333"
+            android:textSize="14sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="74px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="64px"
+            android:orientation="horizontal">
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/delete"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_delete_dialog"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                bossunion:rd_cornerRadius="6px" />
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/ok"
+                style="@style/Material.Drawable.Ripple.Wave.Light"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_ob_dialog"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                bossunion:rd_cornerRadius="6px" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_head" />
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:id="@+id/rl_main_viwe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_f9f9f9" />
+        </RelativeLayout>
+
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

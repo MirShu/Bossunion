@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_null_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp"
+        android:drawablePadding="32dp"
+        android:drawableTop="@mipmap/icon_bg_null"
+        android:gravity="center"
+        android:textColor="@color/color_bababa"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <com.andview.refreshview.XRefreshView
+        android:id="@+id/xrefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f9f9f9">
+
+        <com.quantpower.bossunion.widget.scollview.ScrollViewEx
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_f9f9f9"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+        </com.quantpower.bossunion.widget.scollview.ScrollViewEx>
+    </com.andview.refreshview.XRefreshView>
+</LinearLayout>

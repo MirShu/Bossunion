@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/white">
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/bg_top01"
+            app:riv_corner_radius="5dp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            app:riv_corner_radius="5dp"
+            android:scaleType="centerCrop"
+            android:src="#55000000" />
+
+        <TextView
+            android:id="@+id/tv_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_6b9bcc"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="3dp"
+            android:text="NEW"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/topocs_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:lineSpacingExtra="8dp"
+                android:text="创投公司秉着敬业，一切为客户着想理念，客户至上"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/topocs_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:background="@android:color/white" />
+
+
+            <TextView
+                android:id="@+id/tv_share_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view_line"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14sp"
+                android:text="600点赞，2530分享，640讨论"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/shape_corner_up"
+        android:gravity="center"
+        android:text="上传头像"
+        android:textColor="@color/color_d9d9d9"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/shape_camera"
+        android:gravity="center"
+        android:text="拍照"
+        android:textColor="@color/color_d9d9d9"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btn_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/shape_corner_down"
+        android:gravity="center"
+        android:text="从相册选择"
+        android:textColor="@color/color_d9d9d9"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/shape_corner"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/color_d9d9d9"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <com.quantpower.bossunion.widget.extend.WebViewMod
+                android:id="@+id/topic_data_web"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="170dp"
+                android:background="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/rl_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/iv_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/bg_me_banner" />
+
+                <ImageView
+                    android:id="@+id/iv_back_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:src="@mipmap/icon_back_white" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/topocs_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:lineSpacingExtra="8dp"
+                        android:text="创投公司秉着敬业，一切为客户着想理念，客户至上"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/view_line"
+                        android:layout_width="60dp"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/topocs_title"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="14dp"
+                        android:background="@android:color/white" />
+
+
+                    <TextView
+                        android:id="@+id/tv_share_zan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view_line"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="14sp"
+                        android:text="600点赞，2530分享，640讨论"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_banner"
+                android:background="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/bg_tpo_d" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</RelativeLayout>

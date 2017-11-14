@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f9f9f9"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0.5dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="48px"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginTop="48px"
+                    android:text="头像修改"
+                    android:textColor="@color/color_333333"
+                    android:textSize="16sp" />
+
+                <com.quantpower.bossunion.widget.extend.CircleImageView
+                    android:id="@+id/circle_head"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginRight="30px"
+                    android:layout_marginTop="16px"
+                    android:src="@mipmap/icon_user_head" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12px"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingBottom="18dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="姓名" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="马化腾" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="公司名称" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="深圳腾旭计算机" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="当前职位" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="董事长" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="手机号" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="15625853660" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="邀请码" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="A66Rx5OP" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12px"
+                android:background="@drawable/shape_gradient_backg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_dt_industy"
+                        style="@style/style_me_list_tv"
+                        android:text="关注行业"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="54px"
+                        android:background="@drawable/shape_canvas" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_dt_label"
+                        style="@style/style_me_list_tv"
+                        android:text="定制我的标签"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="54px"
+                        android:background="@drawable/shape_canvas" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_dt_introduction"
+                        style="@style/style_me_list_tv"
+                        android:text="个人简介"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="54px"
+                        android:background="@drawable/shape_canvas" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

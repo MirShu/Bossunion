@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_login"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_transparent_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/wv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="78" />
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:orientation="vertical">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_about_score"
+                    style="@style/style_me_list_tv"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="给我们评分"
+                    android:textColor="@color/white" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/color_line" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_about_opinion"
+                    style="@style/style_me_list_tv"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="意见反馈"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

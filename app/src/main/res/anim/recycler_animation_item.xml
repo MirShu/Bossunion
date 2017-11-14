@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power.com
+  ~  沪ICP备17006076号-1
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="1000"
+        android:fillAfter="true"
+        android:fromYDelta="100.0%"
+        android:toYDelta="0.0" />
+    <alpha
+        android:duration="1000"
+        android:fillAfter="true"
+        android:fromAlpha="0"
+        android:toAlpha="1" />
+</set>

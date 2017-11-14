@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#333333</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="color_000000">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="black_1">#333333</color>
+    <color name="amber">#BBFFC107</color>
+    <color name="color_c0c0c0">#C0C0C0</color>
+    <color name="main_color">#5CB85C</color>
+    <color name="color_afaeae">#afaeae</color>
+    <color name="color_d9d9d9">#d9d9d9</color>
+    <color name="color_6b9bcc">#6b9bcc</color>
+    <color name="color_line">#d9d9d9</color>
+    <color name="color_85c1ff">#85c1ff</color>
+    <color name="color_f9f9f9">#f9f9f9</color>
+    <color name="color_dbdbdb">#dbdbdb</color>
+    <color name="color_bababa">#bababa</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_898988">#898988</color>
+    <color name="color_444444">#444444</color>
+    <color name="color_dadada">#dadada</color>
+    <color name="color_6b9bcb">#6b9bcb</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_6b9bcd">#6b9bcd</color>
+    <color name="color_tab_text">#AFAFAF</color>
+    <color name="color_head_news">#1894f3</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="base_api">http://118.178.121.211:8006/Api/</string>
+
+    <string name="is_test">true</string>
+
+    <string name="base_h5">http://118.178.121.211:8006/Api/</string>
+
+</resources>

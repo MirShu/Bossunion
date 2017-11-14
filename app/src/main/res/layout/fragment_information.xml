@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_home_head" />
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:id="@+id/rl_main_viwe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:overScrollMode="never"
+        android:layout_marginBottom="50dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_mation_news"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_mation_news"
+                    android:text="系统消息" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_mation_clerk"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_mation_clerk"
+                    android:text="小秘书" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_mation_review"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_mation_review"
+                    android:text="评论过我" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_mation_praise"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_mation_praise"
+                    android:text="赞过我" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_f9f9f9" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

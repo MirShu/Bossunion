@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f9f9f9"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/tv_alerts"
+                style="@style/style_me_list_tv"
+                android:layout_marginTop="12px"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="新消息通知" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="去评分" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="新更能介绍" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="服务协议" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="隐私政策" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="版权信息" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_clear_the_cache"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="32px"
+                    android:paddingLeft="30px"
+                    android:paddingRight="30px"
+                    android:paddingTop="32px"
+                    android:text="清楚缓存"
+                    android:textColor="@color/color_333333" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="30px"
+                    android:text="35.6M"
+                    android:textColor="@color/color_333333" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_version_name"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="32px"
+                    android:paddingLeft="30px"
+                    android:paddingRight="30px"
+                    android:paddingTop="32px"
+                    android:text="版本"
+                    android:textColor="@color/color_333333" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="30px"
+                    android:text="V1.0.0"
+                    android:textColor="@color/color_333333" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+
+            <com.rey.material.widget.TextView
+                android:id="@+id/tv_about_us"
+                style="@style/style_me_list_tv"
+                android:background="@android:color/white"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="关于波士界" />
+
+            <com.rey.material.widget.TextView
+                style="@style/Material.Drawable.Ripple.Wave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="104px"
+                android:layout_marginRight="104px"
+                android:layout_marginTop="98px"
+                android:background="@drawable/shape_out_login"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="退出登录"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_line" />
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

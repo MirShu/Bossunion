@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_register"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_transparent_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="262px">
+
+        <Button
+            android:id="@+id/butt_register"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="106px"
+            android:layout_marginRight="70px"
+            android:background="@mipmap/bg_login_pup"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="66px">
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    style="@style/login_item_text"
+                    android:text="手机号" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    style="@style/login_item_edittext"
+                    android:layout_toRightOf="@id/tv_phone"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="16px"
+                android:background="@color/color_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58px">
+
+                <TextView
+                    android:id="@+id/tv_register_code"
+                    style="@style/login_item_text"
+                    android:text="验证码" />
+
+                <EditText
+                    android:id="@+id/et_code"
+                    style="@style/login_item_edittext"
+                    android:layout_toLeftOf="@+id/tv_ident"
+                    android:layout_toRightOf="@id/tv_register_code"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_ident"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="70dp"
+                    android:padding="10px"
+                    android:text="获取验证码"
+                    android:textColor="@color/color_85c1ff"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="16px"
+                android:background="@color/color_line" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80px"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册即视为同意"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_user_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="《用户手册》"
+            android:textColor="@color/color_85c1ff" />
+    </LinearLayout>
+</LinearLayout>

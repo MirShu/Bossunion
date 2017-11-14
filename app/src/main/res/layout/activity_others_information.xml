@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <com.quantpower.bossunion.widget.scollview.ScrollViewEx
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_f9f9f9"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:background="@color/color_f9f9f9"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_banner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp">
+
+                        <ImageView
+                            android:id="@+id/iv_bg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/icon_bg_null" />
+
+                        <com.quantpower.bossunion.widget.extend.WelcomeVideoView
+                            android:id="@+id/videoview"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="120dp"
+                            android:text="马化腾 腾讯董事会主席兼首席执行官"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                    <com.quantpower.bossunion.widget.extend.CircleImageView
+                        android:id="@+id/imge_head"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="150dp"
+                        android:src="@mipmap/icon_bg_null" />
+
+                    <TextView
+                        android:id="@+id/tv_position"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rl_banner"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="10dp"
+                        android:text="深圳市腾讯计算机系统有限公司"
+                        android:textColor="@color/color_bababa"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_position"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginRight="30px"
+                        android:layout_marginTop="30dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/ll_attention"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/layer_list_me"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_allnum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="000"
+                                android:textColor="@color/color_333333"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="0.5dp"
+                                android:background="@color/color_6b9bcb" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="ta的关注"
+                                android:textColor="@color/color_bababa" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dynamic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/layer_list_me"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_roomid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="000"
+                                android:textColor="@color/color_333333"
+                                android:textSize="18sp" />
+
+                            <View
+                                android:layout_width="30dp"
+                                android:layout_height="0.5dp"
+                                android:background="@color/color_6b9bcb" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="10dp"
+                                android:paddingTop="10dp"
+                                android:text="ta的话题"
+                                android:textColor="@color/color_bababa" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22px"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginTop="34px"
+                        android:text="个人介绍"
+                        android:textColor="@color/color_333333" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="17dp"
+                        android:lineSpacingExtra="5dp"
+                        android:text="这个家伙很懒，什么都没有留下~这个家伙很懒，什么都没有留下~"
+                        android:textColor="@color/color_666666" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="17dp"
+                        android:text="关注行业"
+                        android:textColor="@color/color_333333" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recy_industry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12px"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="17dp"
+                        android:text="想得到"
+                        android:textColor="@color/color_333333" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recy_want"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="22dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12px"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginTop="34px"
+                        android:text="能提供"
+                        android:textColor="@color/color_333333" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recy_provide"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="22dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </com.quantpower.bossunion.widget.scollview.ScrollViewEx>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/tv_chat"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="13dp"
+            android:layout_toLeftOf="@+id/tv_focus_on"
+            android:background="@drawable/shape_dt_save"
+            android:onClick="onClick"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="5dp"
+            android:text="私聊"
+            android:textColor="@color/white" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/tv_focus_on"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/shape_login_bg"
+            android:onClick="onClick"
+            android:paddingBottom="5dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="5dp"
+            android:text="关注"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

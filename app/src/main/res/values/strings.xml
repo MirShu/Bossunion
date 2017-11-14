@@ -1,0 +1,63 @@
+<!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<resources>
+    <string name="app_name">波士界</string>
+    <string name="navigation_navigation_bar">NavigationBar</string>
+    <string name="navigation_tab_host">TabHost</string>
+    <string name="item_home">主页</string>
+    <string name="item_discovery">发现</string>
+    <string name="item_information">消息</string>
+    <string name="item_venture_capital">创投</string>
+    <string name="item_me">我</string>
+    <string name="viewfinderview_status_text1">将二维码/条码放入取景框内</string>
+    <string name="viewfinderview_status_text2">即可自动扫描</string>
+    <string name="tv_input_phone">请输入手机号</string>
+    <string name="tv_input_phone_erro">请输入正确的手机号</string>
+    <string name="tv_concerned_industry">关注行业</string>
+    <string name="tv_user_invite">如有邀请码可直接输入认证,若没有清<font color="#85c1ff">提交名片</font>。</string>
+    <string name="tv_login">登陆</string>
+    <string name="tv_cannot_login">无法登陆</string>
+    <string name="tv_code_success">短信发送成功</string>
+    <string name="tv_code_error">验证码错误或已过期</string>
+    <string name="tv_get_code_error">获取验证码失败</string>
+    <string name="tv_login_success">登录成功</string>
+    <string name="tv_konw">知道啦</string>
+    <string name="tv_users_agreement">用户协议</string>
+    <string name="tv_cannot_phone_num">手机号码</string>
+    <string name="tv_cannot_ed_phone">输入您当前的手机号码</string>
+    <string name="tv_cannot_name">姓名</string>
+    <string name="tv_cannot_ed_name">请输入您的真是姓名</string>
+    <string name="tv_cannot_position">职位</string>
+    <string name="tv_cannot_ed_position">请输入您目前职位名称</string>
+    <string name="tv_cannot_company">公司</string>
+    <string name="tv_cannot_ed_company">请输入您目前所在公司</string>
+    <string name="tv_cannot_city">常驻城市</string>
+    <string name="tv_cannot_ed_city">请输入您目前所在城市</string>
+    <string name="tv_cannot_login_time">最后一次登录时间</string>
+    <string name="tv_cannot_ed_login_time">您最后一次登录的时间是</string>
+    <string name="tv_correct_phone_number">请输入有效的手机号或者验证码</string>
+    <string name="tv_cannot_login_sub">提交成功\n <font color="#666666">我们将在3个工作日内进行审核\n结果将于短信告知</font></string>
+    <string name="tv_the_refund_rules">1.活动日期7天可申请全额退款。\n2.活动日期1-6天可退订单金额50%。\n3.活动日期当天及活动日期后申请退款，费用全损。\n4.如因不可抗力涉及改期退款，请及时联系客服11001.</string>
+    <string name="tv_pay_alipay">支付宝支付\n <font color="#bababa">推荐有支付宝账号的用户使用</font></string>
+    <string name="tv_pay_weixin">微信支付\n <font color="#bababa">推荐安装5.0以上及以上版本的用户使用</font></string>
+    <string name="tv_the_refund_rules_out">1.活动日期7天可申请全额退款。\n2.活动日期1-6天可退订单金额50%。\n3.活动日期当天及活动日期后申请退款，费用全损。活动日期当天及活动日期后申请退款，费用全损活动日期当天及活动日期后申请退款，费用全损\n5.如因不可抗力涉及改期退款，请及时联系客服11001.</string>
+    <string name="tv_registered_su">信息已提交审核\n预计1-2个工作日\n请您耐心等待结果</string>
+    <string name="tv_bank">近日发布的2016年银行业运行情况快报显示，2016年，商业银行实现净利润16490亿元，同比增长%1$3.54；平均资产利润率为%2$0.98，平均资本利润率%3$13.38，盈利能力较强。2016年末，商业银行不良贷款余额15123亿元，较上季末增加183亿元；商业银行不良贷款率%3$1.74，较民生银行董事长洪崎2月初在参加某论坛时发言称，银行利润增长率沦为个位数甚至是0。洪崎表示，目前商业银行在经历经济结构调整后，面临困难比较多。从商业银行公布的报表来看，商业银行如今面临着不良率不断攀升，利润增长率进入了个位数甚至接近于0，以及收入增长速度远远低于规模增长速度等趋势。“而这个趋势还是一个常态趋势，因此所有商业银行都需要思考如何转型。”以上种种都传递了一个信号——银行业增长乏力已经是一个事实。特别是社会整体经济下行，风险的上移，无论是资本市场，还是实体经济，都在经历新的阵痛。</string>
+    <string name="tv_medical_industry">医药行业是我国国民经济的重要组成部分，是传统产业和现代产业相结合，一、二、三产业为一体的产业。其主要门类包括：化学原料药及制剂、中药材、中药饮片、中成药、抗生素、生物制品、生化药品、放射性药品、医疗器械、卫生材料、制药机械、药用包装材料及医药商业。医药行业对于保护和增进人民健康、提高生活质量，为计划生育、救灾防疫、军需战备以及促进经济发展和社会进步均具有十分重要的作用。</string>
+    <string name="tv_Industry">制造业是实体经济的关键支撑。按照深化简政放权、放管结合、优化服务改革的要求，简化工业产品生产许可和审批程序，并强化部门监管责任和企业产品质量安全主体责任，有利于放宽市场准入、激发社会投资活力、促进“中国制造”品质升级。经过多轮改革特别是2015年以来持续加大改革力度，工业产品生产许可已从最初的487类缩减到目前的60类，许可前置条件大幅取消。会议决定，按照今年政府工作报告部署，一是进一步压减生产许可。对能通过加强事中事后监管保障质量安全的输水管、蓄电池等19类产品取消事前生产许可；对产品质量较稳定，但与大众消费密切相关、直接涉及人体健康安全的电热毯、摩托车乘员头盔等产品，按照国际通行规则实行强制性认证，不再实施生产许可证管理。经上述调整后，实施生产许可证管理的产品将减至38类。同时，对仍需实施生产许可，且量大面广、由地方管理更有效的化肥等8类产品，将许可权限下放给地方质检部门。二是授权质检总局在部分地区和行业试点简化生产许可证审批程序。取消发证前产品检验环节，改由企业提交有资质的检验检测机构出具的产品检验合格报告。将前置审查改为后置，企业提交申请并作出保证产品质量安全的承诺后，可以先领取生产许可证再接受现场审查，实行“先证后核”。后续监管如发现不符合要求，即依法撤销许可证。三是加强事中事后监管。按照“双随机”方式加大抽查力度，增加抽查频次和品种，扩大覆盖面，尤其对此次取消许可管理的产品要实现抽查全覆盖。</string>
+    <string name="tv_itrud">现为莒县上海多点网络科技有公司董事长、日照市人大代表、日照市政协常委、山东省劳动模范、山东省工商联副主席、十二届全国人大代表。</string>
+    <string name="tv_pos02">现代管理学及管理类畅销书将戴维·尤里奇（Dave Ulrich）奉为人力资源管理的开创者，并是组织，因为那些传统的竞争要素，如成本、技术、分销、制造以及产品特性，或早或晚都能被复制，它们无法保证你就是赢家。</string>
+    <string name="tv_px">是一家专注于高端网站建设和品牌传播的网络服务机构，致力于为企业提供全面、丰富的网络解决方案。在网站创意设计、营销推广到技术研发领域拥有丰富经验，我们通过建立对目标客户和用户行为的分析，整合高质量设计和最新技术，为您打造创意十足、有价值的视觉体验。
+我们为客户提供高质量、高效率的设计服务。坚信优秀的设计赢得用户，简单并注重细节可以为用户带来难忘的体验。用优秀的设计帮助企业创造具有影响力和价值的体验，创造超越竞争对手的品牌竞争力，以深度拓展设计的商业价值，用设计的的力量使客户实现商业目标，用设计的力量驱动企业的持续发展。
+ 多年的专业经验和资源积累，其间我们多家客户产品提供了创新易用的设计方案，有效的提升了产品体验和客户品牌价值。 我们整合商业的价值思考，美学价值及技术实现，用设计的方法推动产品价值最大化，并与客户一起发现潜在商机，与客户一起成长，成为最佳的合作伙伴。我们的服务对象涉及互联网、通讯电子办公耗材等众多行业。</string>
+    <string name="tv_wl">国内新车销量突破2000万台，2013年上海光车牌已突破10万。中国早已成为世界第一汽车消费大国。据国家公安部交管局权威统计，截至2011年8月底全国机动车保有量达到2.19亿辆。其中，汽车保有量首次突破1亿辆，汽车千人拥有率达到百分之六。同期的全球汽车保有量为10亿辆，千人拥有率达百分之14。欧美日等发达国家的汽车千人有用率均已达到百分之六十以上，其中美国更是高达百分之八十。国内汽车市场增长潜力巨大。相比新车销售的迅猛增长，二手车市场仍处于萌芽待发阶段。二手车交易中最关键的一环是价格评估。评估二手车价格，需要有一套科学、统一的鉴定估价标准和方法来客观反映二手车的现时价格。二手车鉴定评估师是经国务院批准的六类资产评估职业之一，是资产评估的重要组成部分。依据国家有关规定，二手车鉴定评估师必须持证上岗，是成立交易市场、设立评估机构、经营二手车业务必不可少的专业技术人才。二手车评估师的工作内容不仅包括产权交易，还涉及纳税、保险、抵押、拍卖、典当、资产评估、司法鉴定、新车置换等多个领域。</string>
+    <string name="tv_xz">“大智大勇，大仁大义，拼博奋进，开拓创新” 用最好的服务来赢取市场，用最好的服务来争取客户，引用最先进的设备来开创市场。诚信、求实、勤业、创新是我们的企业精神。公司秉承“质量就是生命”的理念。凭借“先进的设备、专业的团队和完善的管理体系”，本着“信誉、品质、服务、高效”的宗旨，使本公司在这日新月异的经济大潮中已逐步成长为一个品牌卓越的企..</string>
+    <string name="tv_jj">整合了全国数家移动媒体，已为数百家企业提供了成功的互联网营销策划！是一家以移动互联网、互联网广告媒体资源整合营销为主的广告公司，为客户提供量身定制的解决方案！ 我们的团队核心成员均拥有10年以上互联网工作经验，对于客户的把控以及媒体资源的整合应用拥有充足的经验。 公司目前的客户集中在电子商务、金融、游戏、医美等领域，公司目前主要合作的媒体资源主要集中在互联 网媒体领域。</string>
+
+</resources>

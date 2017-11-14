@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:layout_marginBottom="45dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:background="@color/color_f9f9f9"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/bg_top03" />
+
+                    <ImageView
+                        android:id="@+id/iv_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/bg_me_banner"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="120dp"
+                        android:text="马化腾 腾讯董事会主席兼首席执行官"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableBottom="@mipmap/small_me_banner"
+                        android:drawablePadding="10dp"
+                        android:text="轻触添加照片墙"
+                        android:textColor="@color/color_666666" />
+                </RelativeLayout>
+
+                <com.quantpower.bossunion.widget.extend.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="150dp"
+                    android:src="@mipmap/icon_me_head" />
+
+                <TextView
+                    android:id="@+id/tv_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_banner"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="深圳市腾讯计算机系统有限公司"
+                    android:textColor="@color/color_bababa"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_position"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginRight="30px"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_attention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/layer_list_me"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="8210"
+                            android:textColor="@color/color_333333"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="30dp"
+                            android:layout_height="0.5dp"
+                            android:background="@color/color_6b9bcb" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="我的关注"
+                            android:textColor="@color/color_bababa" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_dynamic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/layer_list_me"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="9860"
+                            android:textColor="@color/color_333333"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="30dp"
+                            android:layout_height="0.5dp"
+                            android:background="@color/color_6b9bcb" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dp"
+                            android:paddingTop="10dp"
+                            android:text="话题动态"
+                            android:textColor="@color/color_bababa" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_me_details"
+                        style="@style/style_me_list_tv"
+                        android:drawableLeft="@mipmap/icon_me_details"
+                        android:text="完善资料" />
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="54px"
+                        android:background="@drawable/shape_canvas" />
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_line" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_me_capital"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_me_capital"
+                    android:text="我的创投" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_line" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_me_order"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_me_order"
+                    android:text="我的订单" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_me_visit"
+                        style="@style/style_me_list_tv"
+                        android:drawableLeft="@mipmap/icon_me_visit"
+                        android:text="最近来访" />
+
+                    <TextView
+                        android:id="@+id/tv_visit_clues"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="54px"
+                        android:text="最近有客人来访~"
+                        android:textColor="@color/color_6b9bcd" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_line" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_me_share"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_me_share"
+                    android:text="分享波士界" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/color_line" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/tv_me_setting"
+                    style="@style/style_me_list_tv"
+                    android:drawableLeft="@mipmap/icon_me_setting"
+                    android:text="设置" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="第三方登录"
+                android:textColor="#333333"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_qq"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_qq"
+                    android:gravity="center_horizontal"
+                    android:text="QQ"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_ww"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_ww"
+                    android:gravity="center_horizontal"
+                    android:text="微信"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_dd"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_dd"
+                    android:gravity="center_horizontal"
+                    android:text="钉钉"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_facebook"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_facebook"
+                    android:gravity="center_horizontal"
+                    android:text="FaceBook"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_pay"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_pay"
+                    android:gravity="center_horizontal"
+                    android:text="支付宝"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_sina"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_sina"
+                    android:gravity="center_horizontal"
+                    android:text="新浪微博"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/login_tiwtter"
+                    style="@style/Material.Drawable.Ripple.Wave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_login_tiwtter"
+                    android:gravity="center_horizontal"
+                    android:text="Tiwtter"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+</LinearLayout>

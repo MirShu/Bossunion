@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bossunion="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+
+        <com.rey.material.widget.Button
+            android:id="@+id/butt_sign_in"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="104px"
+            android:layout_marginRight="104px"
+            android:background="@drawable/shape_login"
+            android:text="登录"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            bossunion:rd_cornerRadius="30px" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/butt_register"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="104px"
+            android:layout_marginRight="104px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/shape_register_bg"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            bossunion:rd_cornerRadius="30px" />
+    </LinearLayout>
+</LinearLayout>

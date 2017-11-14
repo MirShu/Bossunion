@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_successful"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f9f9f9"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:src="@mipmap/icon_null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
+            android:text="申请提交成功!"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32px"
+            android:gravity="center"
+            android:lineSpacingExtra="20px"
+            android:text="申请通过后，将于15个工作日内邮寄发票\n敬请期待"
+            android:textColor="@color/color_666666" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/tv_come_back"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="104px"
+            android:layout_marginRight="104px"
+            android:layout_marginTop="58px"
+            android:background="@drawable/shape_dt_save"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingBottom="28px"
+            android:paddingTop="28px"
+            android:text="返回至我的订单"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12px"
+        android:layout_weight="1"
+        android:background="@color/color_f9f9f9"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingBottom="38px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginTop="30px"
+                        android:src="@mipmap/icon_user_head"
+                        app:riv_corner_radius="6px" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="38px"
+                        android:layout_marginRight="30px"
+                        android:layout_marginTop="38px"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="赴美生蛋养老计划"
+                            android:textColor="@color/color_333333"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:text="¥8999"
+                            android:textColor="@color/color_666666"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:text="x1"
+                            android:textColor="@color/color_666666"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingBottom="36px">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="姓名" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="马化腾" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="手机号码" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="15025225212" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="举办时间" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:text="2017年12月01号20:00-23:00" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_ad"
+                        style="@style/style_me_datails_up_laft_tv"
+                        android:text="举办地点" />
+
+                    <TextView
+                        style="@style/style_me_datails_up_right_tv"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="36px"
+                        android:layout_toRightOf="@+id/tv_ad"
+                        android:gravity="right"
+                        android:lineSpacingExtra="14px"
+                        android:text="上海市马当路388号复兴当路388号复兴广场" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:paddingLeft="30px"
+                android:paddingRight="30px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30px"
+                    android:paddingTop="30px"
+                    android:text="退款规则:"
+                    android:textColor="@color/color_333333" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="36px"
+                    android:lineSpacingExtra="20px"
+                    android:text="@string/tv_the_refund_rules"
+                    android:textColor="@color/color_666666" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_refund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_f9f9f9"
+                android:paddingBottom="24px"
+                android:paddingLeft="30px"
+                android:paddingTop="46px"
+                android:text="退款金额"
+                android:textColor="@color/color_333333" />
+
+            <TextView
+                android:id="@+id/tv_refund_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="32px"
+                android:paddingLeft="30px"
+                android:paddingTop="32px"
+                android:text="¥1502"
+                android:textColor="@color/color_6b9bcd" />
+
+            <TextView
+                android:id="@+id/tv_refund_reason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_f9f9f9"
+                android:paddingBottom="24px"
+                android:paddingLeft="30px"
+                android:paddingTop="46px"
+                android:text="退款原因"
+                android:textColor="@color/color_333333" />
+
+            <EditText
+                android:id="@+id/tv_refund_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="不得输入超过50字..."
+                android:paddingBottom="100px"
+                android:paddingLeft="30px"
+                android:paddingTop="34px"
+                android:textColor="@color/color_666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12px"
+                android:background="@android:color/white"
+                android:paddingBottom="32px"
+                android:paddingLeft="30px"
+                android:paddingTop="32px"
+                android:text="注:一旦退款申请提交成功，将恨不得撤回，请谨慎操作"
+                android:textColor="@color/color_6b9bcd" />
+
+        </LinearLayout>
+    </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+
+    <com.rey.material.widget.TextView
+        android:id="@+id/tv_confirm"
+        style="@style/Material.Drawable.Ripple.Wave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_333333"
+        android:gravity="center"
+        android:paddingBottom="32px"
+        android:paddingTop="32px"
+        android:text="确认申请"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>

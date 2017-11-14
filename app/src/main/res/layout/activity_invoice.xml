@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f9f9f9"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_successful"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f9f9f9"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:src="@mipmap/icon_null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
+            android:text="申请提交成功!"
+            android:textColor="@color/color_333333" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32px"
+            android:gravity="center"
+            android:lineSpacingExtra="20px"
+            android:text="申请通过后，将于15个工作日内邮寄发票\n敬请期待"
+            android:textColor="@color/color_666666" />
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/tv_come_back"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="104px"
+            android:layout_marginRight="104px"
+            android:layout_marginTop="58px"
+            android:background="@drawable/shape_dt_save"
+            android:gravity="center"
+            android:paddingBottom="28px"
+            android:paddingTop="28px"
+            android:onClick="onClick"
+            android:text="返回至我的订单"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_invoic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f9f9f9"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="58px"
+                android:paddingTop="58px"
+                android:text="开票金额：¥5988"
+                android:textColor="@color/color_333333" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="收件人姓名" />
+
+                    <EditText
+                        android:id="@+id/ed_name"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="马化腾"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_phone_num" />
+
+                    <EditText
+                        android:id="@+id/ed_phone"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="152000102501"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="邮寄地址" />
+
+                    <EditText
+                        android:id="@+id/ed_address"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="上海市黄埔区马当路388"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/style_cannot_login_ll"
+                    android:layout_marginBottom="34px">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="开票抬头" />
+
+                    <EditText
+                        android:id="@+id/ed_company"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="公司个人"
+                        android:inputType="phone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/butt_submit"
+            style="@style/style_cannot_detailed_subimt"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="82px"
+            android:layout_marginLeft="80px"
+            android:layout_marginRight="80px"
+            android:text="提交申请" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.quantpower.bossunion.widget.extend.WelcomeVideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_transparent_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include_head"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp">
+
+            <Button
+                android:id="@+id/butt_login"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="86px"
+                android:layout_marginRight="70px"
+                android:background="@mipmap/bg_login_pup"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="66px">
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        style="@style/login_item_text"
+                        android:text="手机号" />
+
+                    <EditText
+                        android:id="@+id/et_login_phone"
+                        style="@style/login_item_edittext"
+                        android:layout_toRightOf="@id/tv_phone"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="16px"
+                    android:background="@color/color_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="58px">
+
+                    <TextView
+                        android:id="@+id/tv_register_code"
+                        style="@style/login_item_text"
+                        android:text="验证码" />
+
+                    <EditText
+                        android:id="@+id/et_login_code"
+                        style="@style/login_item_edittext"
+                        android:layout_toLeftOf="@+id/tv_login_ident"
+                        android:layout_toRightOf="@id/tv_register_code"
+                        android:inputType="phone"
+                        android:maxLength="11"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:textColor="@color/white" />
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_login_ident"
+                        style="@style/Material.Drawable.Ripple.Wave"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/et_login_code"
+                        android:layout_alignBottom="@+id/et_login_code"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginRight="70dp"
+                        android:padding="10px"
+                        android:text="获取验证码"
+                        android:textColor="@color/color_85c1ff"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginTop="16px"
+                    android:background="@color/color_line" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.rey.material.widget.TextView
+            android:id="@+id/tv_cannot_login"
+            style="@style/Material.Drawable.Ripple.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="34px"
+            android:padding="10dp"
+            android:text="无法登陆?"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

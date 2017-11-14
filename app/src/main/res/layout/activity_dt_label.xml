@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ CopCopyright © 2016-2017
+  ~ 上海量雷信息科技有限公司 版权所有 违者必究
+  ~ Shanghai Quantpower Information Technology Co.,Ltd.
+  ~ QQ：2880977679
+  ~ E-mail： info@quant-power
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_dt_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_provide"
+            style="@style/style_me_provide"
+            android:layout_marginLeft="19dp"
+            android:text="我能提供" />
+
+        <TextView
+            style="@style/style_me_provide"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:text="最多可添加3个" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_provide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_provide"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="22dp" />
+
+        <View
+            android:id="@+id/view_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@id/rv_provide"
+            android:background="@color/color_line" />
+
+        <TextView
+            android:id="@+id/tv_get"
+            style="@style/style_me_provide"
+            android:layout_below="@id/view_line"
+            android:layout_marginLeft="19dp"
+            android:text="我想得到" />
+
+        <TextView
+            style="@style/style_me_provide"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/view_line"
+            android:layout_marginRight="19dp"
+            android:text="最多可添加3个" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_get"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="22dp" />
+    </RelativeLayout>
+</LinearLayout>

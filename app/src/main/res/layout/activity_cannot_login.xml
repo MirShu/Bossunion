@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tt"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_head"
+        layout="@layout/view_white_bg_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="12px"
+        android:layout_below="@+id/include_head"
+        android:background="@color/color_f9f9f9" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_line"
+        android:orientation="vertical">
+
+        <com.quantpower.bossunion.widget.scollview.ReboundScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_phone_num" />
+
+                    <EditText
+                        android:id="@+id/ed_phone"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_phone"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_name" />
+
+                    <EditText
+                        android:id="@+id/ed_name"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_name" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_position" />
+
+                    <EditText
+                        android:id="@+id/ed_position"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_position" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_company" />
+
+                    <EditText
+                        android:id="@+id/ed_company"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_company" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_city" />
+
+                    <EditText
+                        android:id="@+id/ed_resident_city"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_city" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_login_ll">
+
+                    <TextView
+                        style="@style/style_cannot_login_tv"
+                        android:text="@string/tv_cannot_login_time" />
+
+                    <EditText
+                        android:id="@+id/ed_last_login_time"
+                        style="@style/style_cannot_login_ed"
+                        android:hint="@string/tv_cannot_ed_login_time" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/style_cannot_detailed_ll">
+
+                    <TextView style="@style/style_cannot_detailed_tv" />
+
+                    <EditText
+                        android:id="@+id/ed_detailed"
+                        style="@style/style_cannot_detailed_ed" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.quantpower.bossunion.widget.scollview.ReboundScrollView>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/butt_submit"
+            style="@style/style_cannot_detailed_subimt" />
+    </RelativeLayout>
+</RelativeLayout>
